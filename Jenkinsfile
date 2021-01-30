@@ -30,10 +30,10 @@ pipeline {
   }
   post {
     success {
-      'SUCCESSFUL pipeline'
+      echo 'SUCCESSFUL pipeline'
     }
     unsuccessful {
-      'FAILURE pipeline'
+      echo 'FAILURE pipeline'
     }
   }
 }
