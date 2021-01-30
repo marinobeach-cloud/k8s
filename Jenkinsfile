@@ -28,4 +28,12 @@ pipeline {
       }
     }
   }
+  post {
+    success {
+      'SUCCESSFUL pipeline'
+    }
+    unsuccessful {
+      'FAILURE pipeline'
+    }
+  }
 }
