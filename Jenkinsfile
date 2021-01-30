@@ -24,7 +24,7 @@ pipeline {
     }
     stage ('Deploy') {
       steps {
-        sh 'mvn clean deploy'
+        echo 'mocking deploy...'
       }
     }
   }
