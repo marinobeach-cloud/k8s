@@ -24,7 +24,7 @@ pipeline {
     }
     stage ('Deploy') {
       steps {
-        echo 'mocking deploy...'
+        echo 'mvn install'
       }
     }
   }
